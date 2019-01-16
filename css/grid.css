@@ -1,0 +1,49 @@
+.container{
+  max-width: 900px;
+  margin:auto;
+}
+
+.row{
+  display: flex;
+}
+
+.col-1{
+  width: 8.3333333333%;
+}
+
+.col-2{
+  width: 16.6666666666%;
+}
+.col-3{
+  width: 24.999999999%;
+}
+.col-4{
+  width: 33.333333332%;
+}
+.col-5{
+  width: 41.666666665%;
+}
+.col-6{
+  width: 49.999999998%;
+}
+.col-7{
+  width: 58.333333331%;
+}
+.col-8{
+  width: 66.666666664%;
+}
+.col-9{
+  width: 74.999999997%;
+}
+.col-10{
+  width: 83.33333333%;
+}
+.col-11{
+  width: 91.666666663%;
+}
+.col-12{
+  width: 100%;
+}
+
+
+/* container > row > column */
