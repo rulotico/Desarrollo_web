@@ -10,15 +10,17 @@ body{
   background: salmon;
   font-family: helvetica;
   color: white;
+
 }
 
 p{
   font-size: 12px;
 }
 
-.soyunaclase{
-  color: gray;
-}
 #soyunid{
   color: blue;
+}
+
+.soyunaclase{
+  color: gray;
 }
