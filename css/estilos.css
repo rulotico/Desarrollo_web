@@ -6,7 +6,7 @@
 #  \___/____/____/··
 #  ·················
 */
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 /*------ Variables */
 :root{
   /*------ Colores */
@@ -18,13 +18,15 @@
   /*------ Espaciado */
   --space:10px;
   --space-2:20px;
+  /*------ Box shadow*/
+  --box:0px 0 2px 1px #e6e5e9;
 }
 
 /* -------------------------------------------  */
 html, body{
   margin:0;
   padding: 0;
-  font-family: helvetica;
+  font-family: 'Open Sans', sans-serif;
   color: var(--black-color);
 }
 
@@ -32,11 +34,11 @@ p{
   font-size: var(--normal);
 }
 
+
 nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   padding: var(--space);
   min-height: 60px;
   background-color: var(--green-color);
@@ -153,6 +155,21 @@ h2.mention_title{
 .mention .text{
   padding: var(--space);
 }
+/* ------------------------------------------- Venta */
+
+.modulo_pago{
+background-color:var(--white-color);
+box-shadow: var(--box);
+padding:var(--space);
+}
+
+.modulo_pago_images{
+  max-width: 150px;
+  text-align: center;
+  width: 100%;
+  margin:auto;
+}
+
 
 /* ------------------------------------------- Footer */
 footer{

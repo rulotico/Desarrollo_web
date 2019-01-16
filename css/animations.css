@@ -11,13 +11,13 @@
 .fadeIn{
   -webkit-animation-duration: 4s;
   animation-duration: 4s;
-  animation-fill-mode: both;
   -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
 
-@keyframes fadeIn {
+@keyframes fadeIn{
   from{
     opacity: 0;
   }
@@ -29,43 +29,75 @@
 .fadeInDown{
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  animation-fill-mode: both;
   -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
 
-@keyframes fadeInDown {
-  from{
+@-webkit-keyframes fadeInDown {
+  from {
     opacity: 0;
-    -webkit-transform: translate3d(0,-100%,0);
-    transform: translate3d(0,-100%,0);
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
   }
-  to{
+
+  to {
     opacity: 1;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
-.fadeInUp{
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+
+.fadeInUp {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  animation-fill-mode: both;
   -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
 
-@keyframes fadeInUp {
-  from{
+@-webkit-keyframes fadeInUp {
+  from {
     opacity: 0;
-    -webkit-transform: translate3d(0,100%,0);
-    transform: translate3d(0,100%,0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
   }
-  to{
+
+  to {
     opacity: 1;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 }
